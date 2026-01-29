@@ -1,0 +1,7 @@
+{
+	  "id"        : "preside-ext-jsmodern"
+	, "title"     : "Preside JS Modern"
+	, "author"    : "Pixl8 Group"
+	, "version"   : "$VERSION_NUMBER"
+	, "dependsOn" : []
+}
