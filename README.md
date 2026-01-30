@@ -129,5 +129,11 @@ MIT
 ## Credits
 
 - **JQNext** by Pixl8 Group Limited
+
+https://github.com/pixl8/JQNext
+
 - **SandalJS** by Pixl8 Group Limited
+
+https://github.com/pixl8/SandalJS
+
 - Built for [Preside CMS](https://www.preside.org/)
