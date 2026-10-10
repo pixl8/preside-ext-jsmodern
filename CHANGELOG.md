@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.10
+
+* Bump jqnext to 1.0.19 - fixes admin accordions (jQuery UI accordion, e.g. the form builder's field picker) not opening or closing. `animate()` now supports jQuery's `"show"`, `"hide"` and `"toggle"` property values, which jQuery UI uses to animate panels open and shut.
+
 ## 1.0.9
 
 * Bump jqnext to 1.0.18 - fixes the Preside data grid (DataTables 3) failing to initialise with "Cannot read properties of undefined (reading 'className')". jQuery pseudos part-way through a selector (`thead > tr:first > th`) now apply where they sit rather than to the final result, and `trigger( $.Event( ... ), args )` keeps its extra arguments, namespace and event properties as the event bubbles.
