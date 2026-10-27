@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.11
+
+* Bump sandal to 1.4.2 - fixes popovers with `html: true` (e.g. the admin's labs signpost) showing their markup as text and an element title as `[object Object]`. html titles and content are now set as they are, as in Bootstrap 3.0, and a title or content function may return an element or jQuery object. Sandal's opt-in `sanitize` option now filters through an allow list as Bootstrap 3.4.1 does.
+
 ## 1.0.10
 
 * Bump jqnext to 1.0.19 - fixes admin accordions (jQuery UI accordion, e.g. the form builder's field picker) not opening or closing. `animate()` now supports jQuery's `"show"`, `"hide"` and `"toggle"` property values, which jQuery UI uses to animate panels open and shut.
